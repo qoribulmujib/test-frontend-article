@@ -1,0 +1,54 @@
+//JAWABAN NO 1
+        // let string = "NEGIE1";
+        // let array = string.split("")
+        // let slice = array.slice(0, 5)
+        // let satu = array.slice(5)
+        // let temp = []
+        // for (let i = 4; i >= 0; i--){
+        //     temp.push(slice[i])
+        // }
+        // let Output = temp.join("") + satu;
+        // console.log('string => ', Output);
+
+        //JAWABAN NO 2
+        // const sentence = "Saya sangat senang mengerjakan soal algoritma"
+        // console.log('sentence =>', sentence);
+        // let array = sentence.split(' ')
+        // console.log('array =>', array);
+        // let kosong = 0;
+        // let i = 0;
+        // let text = ''
+        // do {
+        //     if (array[i].length > kosong) {
+        //         kosong = array[i].length
+        //         text = array[i]
+        //     }
+        //     i++;
+        // }
+        // while (i < array.length);
+        // let output = text + ": " + kosong
+        // console.log(output);
+
+        //JAWABAN NO 3
+        // let INPUT = ['xc', 'dz', 'bbb', 'dz']
+        // let QUERY = ['bbb', 'ac', 'dz']
+        // let temp = []
+        // console.log('input =>', INPUT);
+        // console.log('query =>', QUERY);
+        // intersection = QUERY.map(i => {
+        //     return {
+        //         'name': i,
+        //         'matched': INPUT.includes(i)
+        //     };
+        // });
+        // for (let i = 0; i < intersection.length; i++) {
+        //     if (intersection[i].matched === true) {
+        //         temp.push(i)
+        //     } else {
+        //         temp.push(i)
+        //     }
+        // }
+        // console.log('intersection =>', intersection);
+        // console.log('temp =>', temp);
+
+        //JAWABAN NO 4
