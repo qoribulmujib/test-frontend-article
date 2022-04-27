@@ -1,10 +1,17 @@
 import "./App.css";
 import { Articles } from "./components/Articles";
-//f8e0c8edaac141c7a18805435a433f39
+import { ComponentProvider } from "./components/context/ComponentContext";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Articles />
+      <Router>
+        <ComponentProvider>
+          <Route path="/">
+            <Articles />
+          </Route>
+        </ComponentProvider>
+      </Router>
     </div>
   );
 }
