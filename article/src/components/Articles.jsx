@@ -28,12 +28,6 @@ export const Articles = () => {
           </div>
         </div>
       </header>
-
-      <section id="carousel" className="pt-36 pb-32">
-        <div className="container">
-          <h2>carousel</h2>
-        </div>
-      </section>
       <section id="card" className="pt-36 pb-32">
         <div className="container flex flex-wrap space-x-4 space-x-reverse space-y-4 space-y-reverse">
           <section className="h-screen w-screen  from-pink-50 to-indigo-100 p-8">
